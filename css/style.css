@@ -256,7 +256,7 @@ Pricing section
 /* ---------------
 Footer section
 --------------- */
-.footer {
+/* .footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -265,7 +265,7 @@ Footer section
   color: white;
   text-align: center;
   
-}
+} */
 
 
 
@@ -277,7 +277,13 @@ Footer section
       margin-bottom: 20px;
     }
   }
-0button
+button
 {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 320px){
+ img{
+   width:280px;
+ }
 }
