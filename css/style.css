@@ -267,7 +267,11 @@ Footer section
   
 } */
 
-
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
@@ -282,8 +286,3 @@ button
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 320px){
- img{
-   width:280px;
- }
-}
