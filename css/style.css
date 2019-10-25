@@ -273,6 +273,13 @@ img {
   height: auto ;
 }
 
+iframe{
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+
+}
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .col-sm {
